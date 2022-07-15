@@ -2,7 +2,7 @@
   "short_name": "Weather",
   "name": "Weather: Do I need an umbrella?",
   "web_accessible_resources": [{
-    "resources": ["*"],
+    "resources": ["/*"],
     "matches": ["<all_urls>"],
   }],
 }
