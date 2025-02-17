@@ -16,6 +16,21 @@
                 width: 400px;
             }
 
+            #notes {
+                display: block;
+                margin: auto;
+                clip-path: inset(55px 0 0 0);
+                margin-top: -55px;
+            }
+
+            .notesContainer {
+                display: inline-block;
+                padding: 0;
+                margin: 0;
+                border: none;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            }
+
             .shortcut {
                 display:inline-block;
                 position:relative;
@@ -361,7 +376,9 @@
         }
 
         #iframeContainer {
-            padding-top:100px;
+            padding-top:35px;
+            max-width: 2000px;
+            display: inline-block;
         }    
         .checker-plus-widget {
             width: 1000px;
@@ -388,6 +405,9 @@
                 <iframe src="https://app.todoist.com/app/project/programming-6X3jRHxRh9WPgX3V" id="projectsProgramming" class="checker-plus-widget"></iframe>
                 <iframe src="https://chrome.todoist.com/app/today" id="mainTodolistiFrame" class="checker-plus-widget"></iframe>
                 <iframe src="https://app.todoist.com/app/project/projects-6JMh4c8HqJ88HgJ7" id="projectsMusic" class="checker-plus-widget"></iframe>
+                <div class="notesContainer">
+                    <iframe src="https://docs.google.com/document/d/1hg3bZJ-TVSIvGL0bSGvLr2NclrnRh176Y9VkIcXIxkU/edit?tab=t.0" id="notes" class="checker-plus-widget"></iframe>
+                </div>
             </div>
         </div>
     </body>
