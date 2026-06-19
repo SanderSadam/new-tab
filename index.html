@@ -425,7 +425,8 @@
 
         if (hash) {
             // Update iframe source with password
-            iframe.src = `https://www.protectedtext.com/sandersnotes?${hash}`;
+            //iframe.src = `https://www.protectedtext.com/sandersnotes?${hash}`;
+            iframe.src = `https://app.simplenote.com/`;
         } else {
             console.warn("No password found in URL hash.");
         }
